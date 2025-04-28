@@ -6,7 +6,7 @@ st.set_page_config(page_title="QUANTUM Forecast Dashboard", layout="wide")
 
 st.title("🚀 QUANTUM Stock Forecast Dashboard")
 
-forecast_df = pd.read_csv('outputs/forecasts/forecast_results.csv')
+forecast_df = pd.read_csv('forecast_results.csv')
 
 st.subheader("🔍 Asset Forecast Übersicht")
 
