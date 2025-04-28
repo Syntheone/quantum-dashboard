@@ -9,7 +9,7 @@ st.title("🚀 QUANTUM Stock Forecast Dashboard")
 
 # 2. Daten automatisch laden (immer aktuelle Forecasts)
 try:
-    forecast_df = pd.read_csv('outputs/forecasts/forecast_results.csv')
+    forecast_df = pd.read_csv('forecast_results.csv')
 except FileNotFoundError:
     st.error("❌ Fehler: Forecast-Datei nicht gefunden!")
     st.stop()
